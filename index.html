@@ -25,21 +25,17 @@
 	    <form method="POST" action="http://formspree.io/scott.denholm@sruc.ac.uk">
   			<input type="hidden" name="_subject" value="Temple Grandin Visit Ticket Request" />
 		    	<input type="hidden" name="_cc" value="stephanie.smith@sruc.ac.uk" />
-  			<input type="text" name="name" placeholder="Your Name"></br>
+  			<input type="text" name="name" placeholder="Your Name" required></br>
 				<p></p>
-  			<input type="email" name="email" placeholder="Your email"></br>
+  			<input type="email" name="email" placeholder="Your email" required></br>
   				<p></p>
-  			<input type="radio" name="position" id="undergrad" value="Undergraduate" >
-  				<label for="undergrad">Undergraduate</label>
-				</br> 
-  			<input type="radio" name="position" id="postgrad" value="Postgraduate">
-  				<label for="postgrad">Postgraduate</label>
-				</br>
-  			<input type="radio" name="position" id="Postdoc" value="Postdoc (early career)">
-  				<label for="Postdoc">Postdoc (early career)</label>
-				</br>
-  			<input type="radio" name="position" id="staff_other" value="Staff">
-  				<label for="staff_other">Staff</label></br>
+  			<select name="position" id="position" required> 
+    				<option value="">Please select</option>
+    				<option value="Undergrad">Undergraduate</option>
+    				<option value="Postgrad">Postgraduate</option> 
+    				<option value="Postdoc">Postdoc (early career)</option>
+    				<option value="Staff">Staff</option>
+			</select></br>
 			  <p></p>
   			<input type="text" name="institution" placeholder="Your Institution"></br>
 				<p></p>
