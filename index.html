@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<title>
-			SRUC Student Competition 2015/16
+			SRUC Temple Grandin visit - Feb 2017
 		</title>
 	</head>
 	
@@ -12,12 +12,35 @@
 
 		<div id="banner">
 			<center><img src="img/SRUClogo.png" width="200" height="200">
-			<h1>SRUC <i>Invite-a-Scientist</i> Student Competition</h1>
-			<p> </p><h2>2015/16 Pan Seminar Series</h2>
+			<h1>SRUC Temple Grandin vist</h1>
+				</br>
+			<h2>2015/16 Pan Seminar Series</h2>
 		</div>
 
 
-
+		<form method="POST" action="http://formspree.io/scott.denholm@sruc.ac.uk">
+  			<input type="hidden" name="_subject" value="Ticket Request" />
+  			<input type="text" name="name" placeholder="Your Name">
+  			<input type="email" name="email" placeholder="Your email">
+  			<p></p>
+  			<input type="radio" name="position" id="undergrad" value="Undergraduate" >
+  				<label for="undergrad">Undergraduate</label>
+				</br> 
+  			<input type="radio" name="position" id="postgrad" value="Postgraduate">
+  				<label for="postgrad">Postgraduate</label>
+				</br>
+  			<input type="radio" name="day" id="Postdoc" value="Postdoc">
+  				<label for="Postdoc">Postdoc (early career)</label>
+				</br>
+  			<input type="radio" name="day" id="staff_other" value="Staff">
+  				<label for="staff_other">Staff</label>
+			  <p></p>
+  			<input type="text" name="institution" placeholder="Your Institution">
+  			<input type="text" name="degree" placeholder="Degree Course">
+  			<input type="text" name="_gotcha" style="display:none" />
+  			<button type="submit">Register</button>
+  			<input type="hidden" name="_next" value="https://sdsruc.github.io/registration_successful" />
+		</form>
 
 
 
