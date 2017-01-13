@@ -32,7 +32,9 @@
   			<select name="position" id="position" required> 
     				<option value="">Please select</option>
     				<option value="Undergrad">Undergraduate</option>
-    				<option value="Postgrad">Postgraduate</option> 
+    				<option value="msc_taught">MSc (taught)</option> 
+				<option value="msc_research">MSc (research)</option>
+				<option value="phd">Phd</option> 
     				<option value="Postdoc">Postdoc (early career)</option>
     				<option value="Staff">Staff</option>
 			</select></br>
@@ -44,6 +46,7 @@
   			<input type="text" name="_gotcha" style="display:none" />
   			<button type="submit">Register</button>
   			<input type="hidden" name="_next" value="https://sdsruc.github.io/registration_successful" />
+                        <input type="datetime" id="time"  value="<?php echo date("Y-m-d\TH:i:s",$timestamp); ?>"/>
 		</form>
     </div>
 
@@ -55,7 +58,7 @@
 			Date: Wednesday 15th</br> 
 			Time: 1500</br> 
                         Location: The Auditorium, Roslin Institute Building, Easter Bush, EH25 9RG</p>
-		<p>This channel will be open for you to register until ... ??</p>
+		<p>This registration page will be open for you to register until Friday 20th January 2017 ??</p>
 		<p>After this point it will be closed and tickets will be allocated to SRUC students across all categories as a priority, 
 			followed by SRUC staff and other students. </br>
 			Around this time you will receive confirmation of whether or not you have been successfully allocated a ticket.<p>
