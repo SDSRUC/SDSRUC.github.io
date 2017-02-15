@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			SRUC Student Competition 2015/16 - REGISTRATION SUCCESSFUL
+		</title>
+		
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		
+	</head>
+	
+	<body>
+
+		<div id="main-wrap">
+			<center><img src="img/SRUClogo.png" width="200" height="200">
+				<h1>SRUC Temple Grandin Visit</h1></br>
+		</div>
+		
+		<div id="main-wrap">
+    			<!--<div id="sidebar">
+			
+			</div>
+    			<div id="content-wrap">-->
+				<center><h3>You have successfully submitted your feedback. Thank you very much :)
+					
+				</h3>
+			<!--</div>-->
+		</div>
+
+	</body>
+</html>
