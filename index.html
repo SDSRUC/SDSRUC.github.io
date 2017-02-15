@@ -67,7 +67,36 @@
 			Around this time you will receive confirmation of whether or not you have been successfully allocated a ticket.<p>
 
 		<p>Kind regards, </br> Steph &amp; Scott</p>
-
+		
+		  <form method="POST" action="http://formspree.io/scott.denholm@sruc.ac.uk">
+  			<input type="hidden" name="_subject" value="Temple Grandin - Post Seminar Survey" />
+		    	<!--<input type="hidden" name="_cc" value="enter Cc email address" /> -->
+			  <h2>1. Did today’s seminar meet your expectations? If yes, please let us know the main thing you learnt from the event, 
+				  if not please let us know the main reason why?</h2>
+			<input type="text" name="Q1" placeholder=" " required></br>
+				<p></p>
+			<input type="text" name="Q2" placeholder=" " required></br>
+				<p></p>
+			<input type="text" name="Q3" placeholder=" " required></br>
+				<p></p>
+			<input type="text" name="Q4" placeholder=" " required></br>
+				<p></p>
+  			<select name="position" id="position" required> 
+    				<option value="">Please select</option>
+    				<option value="Undergrad">Undergraduate</option>
+    				<option value="msc_taught">MSc (taught)</option> 
+				<option value="msc_research">MSc (research)</option>
+				<option value="phd">Phd</option> 
+    				<option value="Postdoc">Postdoc (early career)</option>
+    				<option value="Staff">Staff</option>
+			</select></br>
+			  <p></p>
+  			<input type="text" name="institution" placeholder="Your Institution" required></br>
+				<p></p>
+  			<input type="text" name="_gotcha" style="display:none" />
+  			<button type="submit">Register</button>
+  			<input type="hidden" name="_next" value="https://sdsruc.github.io/thank_you" />
+		</form> 
 	</div>
 </div>		
 
