@@ -87,7 +87,7 @@
 			<textarea name="Q4" placeholder="Comments" rows="4" cols="45" required></textarea><br/><br/>
 				<p></p>
   			<select name="position" id="position" required> 
-    				<option value="">Please select</option>
+    				<option value="">Position</option>
     				<option value="Undergrad">Undergraduate</option>
     				<option value="msc_taught">MSc (taught)</option> 
 				<option value="msc_research">MSc (research)</option>
@@ -96,7 +96,15 @@
     				<option value="Staff">Staff</option>
 			</select><br/><br/>
 			  <p></p>
-  			<input type="text" name="institution" placeholder="Your Institution" required><br/><br/>
+  			<!--<input type="text" name="institution" placeholder="Your Institution" required><br/><br/>-->
+			<select name="institution" id="institution" required> 
+    				<option value="">Institution</option>
+    				<option value="R(D)SVS">R(D)SVS</option>
+    				<option value="SAC Consulting">SAC Consulting</option> 
+				<option value="SRUC">SRUC</option>
+				<option value="The Roslin Institute">The Roslin Institute</option> 
+    				<option value="University of Edinburgh">University of Edinburgh</option>
+			</select><br/><br/>
 				<p></p>
   			<input type="text" name="_gotcha" style="display:none" />
   			<button type="submit">Register</button>
